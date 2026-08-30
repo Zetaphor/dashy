@@ -100,55 +100,55 @@ sections:
     items:
       - title: Plex
         description: Media server
-        url: http://theta:32400/web
+        url: https://plex.zetaphor.space/web
         icon: fas fa-tv
       - title: Radarr
         description: Movie library manager
-        url: http://theta:7878
+        url: https://radarr.zetaphor.space
         icon: fas fa-film
       - title: Sonarr
         description: TV library manager
-        url: http://theta:8989
+        url: https://sonarr.zetaphor.space
         icon: fas fa-tv
       - title: Prowlarr
         description: Indexer manager
-        url: http://theta:9696
+        url: https://prowlarr.zetaphor.space
         icon: fas fa-compass
       - title: Bazarr
         description: Subtitle manager
-        url: http://theta:6767
+        url: https://bazarr.zetaphor.space
         icon: fas fa-closed-captioning
       - title: SABnzbd
         description: NZB downloader
-        url: http://theta:8080
+        url: https://sabnzbd.zetaphor.space
         icon: fas fa-download
       - title: Overseerr
         description: Media request manager
-        url: http://theta:5055
+        url: https://overseerr.zetaphor.space
         icon: fas fa-tasks
       - title: Tautulli
         description: Plex analytics
-        url: http://theta:8281
+        url: https://tautulli.zetaphor.space
         icon: fas fa-chart-line
       - title: Recommendarr
         description: Media recommendations
-        url: http://theta:3030
+        url: https://recommendarr.zetaphor.space
         icon: fas fa-thumbs-up
       - title: Syncthing
         description: Sync service UI
-        url: http://theta:8384
+        url: https://syncthing.zetaphor.space
         icon: fas fa-sync-alt
       - title: Speedtest
         description: Network speed tracker
-        url: https://theta:8443
+        url: https://speedtest.zetaphor.space
         icon: fas fa-tachometer-alt
       - title: Pi-hole
         description: DNS and ad blocking
-        url: http://theta:8020/admin
+        url: https://pihole.zetaphor.space/admin
         icon: fas fa-shield-alt
       - title: SearXNG
         description: Metasearch on theta
-        url: http://theta:8085
+        url: https://searx-theta.zetaphor.space
         icon: fas fa-search
 
   - name: AI and Research
@@ -159,6 +159,10 @@ sections:
         description: LLM gateway
         url: https://litellm.zetaphor.space/ui
         icon: fas fa-robot
+      - title: Lemonade
+        description: NPU inference server
+        url: https://lemonade.zetaphor.space
+        icon: fas fa-lemon
       - title: llama-swap
         description: Model router UI and API
         url: https://swap.zetaphor.space
