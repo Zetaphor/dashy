@@ -1,59 +1,211 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/Lissy93/dashy/master/src/utils/config/ConfigSchema.json
----
-# Page meta info, like heading, footer text and nav links
-pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
-  navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
-
-# Optional app settings and configuration
 appConfig:
-  theme: colorful
-
-# Main content - An array of sections, each containing an array of items
+  theme: zetaphor-green
+  cssThemes: [zetaphor-green]
+  customColors:
+    zetaphor-green:
+      primary: '#57c779'
+      background: '#333333'
+      background-darker: '#262626'
+      font-monospace: "'Hack', 'PTMono', ui-monospace, Menlo, Monaco, Consolas, 'Courier New', monospace"
+      heading-text-color: '#d9f7df'
+      nav-link-text-color: '#cccccc'
+      nav-link-background-color: '#3a3a3a'
+      nav-link-text-color-hover: '#f2fff5'
+      nav-link-background-color-hover: '#454545'
+      nav-link-border-color: '#4f7a58'
+      nav-link-border-color-hover: '#57c779'
+      search-container-background: '#2a2a2a'
+      search-field-background: '#2f2f2f'
+      settings-background: '#2f2f2f'
+      settings-text-color: '#cccccc'
+      item-text-color: '#cccccc'
+      item-group-outer-background: '#4a9f5f'
+      item-group-background: '#2c2c2cf2'
+      item-group-heading-text-color: '#1f2d23'
+      item-group-heading-text-color-hover: '#ffffff'
+      footer-text-color: '#a8a8a8'
+      footer-text-color-link: '#7dd89a'
+      scroll-bar-color: '#57c779'
+      scroll-bar-background: '#242424'
+      highlight-background: '#57c779'
+      highlight-color: '#1f1f1f'
+      toast-background: '#57c779'
+      toast-color: '#1f1f1f'
+      welcome-popup-background: '#2b2b2b'
+      welcome-popup-text-color: '#cccccc'
+      side-bar-background: '#242424'
+      side-bar-color: '#cccccc'
+      status-check-tooltip-background: '#242424'
+      status-check-tooltip-color: '#d5f5dc'
+      context-menu-color: '#cccccc'
+      context-menu-background: '#2f2f2f'
+      context-menu-secondary-color: '#4f7a58'
+  statusCheck: false
+  layout: vertical
+  iconSize: medium
+  language: en
+pageInfo:
+  title: Homelab Dashboard
 sections:
-  - name: Getting Started
-    icon: fas fa-rocket
+  - name: Daily Apps
+    icon: fas fa-house
+    color: '#4a9f5f'
     items:
-      - title: GitHub
-        description: Source Code, Issues and Pull Requests
-        url: https://github.com/lissy93/dashy
-        icon: si-github
-      - title: Docs
-        description: Configuring & Usage Documentation
-        provider: Dashy.to
-        icon: far fa-book
-        url: https://dashy.to/docs
+      - title: LibreChat
+        description: Chat app
+        url: https://chat.zetaphor.space
+        icon: fas fa-comments
+      - title: Hister
+        description: History search and index
+        url: https://hister.zetaphor.space
+        icon: fas fa-history
+      - title: Vane
+        description: AI search engine
+        url: https://vane.zetaphor.space
+        icon: fas fa-compass
+      - title: SearXNG
+        description: Metasearch
+        url: https://searx.zetaphor.space
+        icon: fas fa-search
+      - title: Health
+        description: Gadgetbridge health UI and API
+        url: https://health.zetaphor.space
+        icon: fas fa-heart
+      - title: Supernote
+        description: Supernote private cloud
+        url: https://supernote.zetaphor.space
+        icon: fas fa-book
 
-  - name: Support Dashy
-    icon: fas fa-heart
-    displayData:
-      itemSize: large
-    widgets:
-      - type: image
-        label: Dashy is made possible thanks to our awesome sponsors
-        options:
-          imagePath: https://readme-contribs.as93.net/sponsors/lissy93?perRow=5&shape=squircle
+  - name: Media Stack
+    icon: fas fa-photo-film
+    color: '#3f8f9f'
     items:
-      - title: Sponsor
-        url: https://github.com/sponsors/lissy93
-        description: Sponsor @Lissy93 on GitHub to support with ongoing development of Dashy
-        icon: 🩷
-        color: '#ff78d1'
-        backgroundColor: '#c30c844a'
+      - title: Navidrome
+        description: Music server
+        url: https://navidrome.zetaphor.space
+        icon: fas fa-music
+      - title: slskd
+        description: Soulseek daemon UI
+        url: https://soulseek.zetaphor.space
+        icon: fas fa-network-wired
+      - title: SoulSync
+        description: SoulSync web UI
+        url: https://music.zetaphor.space
+        icon: fas fa-compact-disc
 
-  - name: Latest Updates
-    icon: fas fa-code-branch
-    displayData:
-      cols: 1
-      rows: 3
-      cutToHeight: true
-    widgets:
-      - type: rss-feed
-        options:
-          rssUrl: https://github.com/lissy93/dashy/releases.atom
-          limit: 5
+  - name: Theta Services
+    icon: fas fa-server
+    color: '#4f7a58'
+    items:
+      - title: Plex
+        description: Media server
+        url: http://theta:32400/web
+        icon: fas fa-tv
+      - title: Radarr
+        description: Movie library manager
+        url: http://theta:7878
+        icon: fas fa-film
+      - title: Sonarr
+        description: TV library manager
+        url: http://theta:8989
+        icon: fas fa-tv
+      - title: Prowlarr
+        description: Indexer manager
+        url: http://theta:9696
+        icon: fas fa-compass
+      - title: Bazarr
+        description: Subtitle manager
+        url: http://theta:6767
+        icon: fas fa-closed-captioning
+      - title: SABnzbd
+        description: NZB downloader
+        url: http://theta:8080
+        icon: fas fa-download
+      - title: Overseerr
+        description: Media request manager
+        url: http://theta:5055
+        icon: fas fa-tasks
+      - title: Tautulli
+        description: Plex analytics
+        url: http://theta:8281
+        icon: fas fa-chart-line
+      - title: Recommendarr
+        description: Media recommendations
+        url: http://theta:3030
+        icon: fas fa-thumbs-up
+      - title: Syncthing
+        description: Sync service UI
+        url: http://theta:8384
+        icon: fas fa-sync-alt
+      - title: Speedtest
+        description: Network speed tracker
+        url: https://theta:8443
+        icon: fas fa-tachometer-alt
+      - title: Pi-hole
+        description: DNS and ad blocking
+        url: http://theta:8020/admin
+        icon: fas fa-shield-alt
+      - title: SearXNG
+        description: Metasearch on theta
+        url: http://theta:8085
+        icon: fas fa-search
+
+  - name: AI and Research
+    icon: fas fa-brain
+    color: '#6c8f4a'
+    items:
+      - title: LiteLLM
+        description: LLM gateway
+        url: https://litellm.zetaphor.space/ui
+        icon: fas fa-robot
+      - title: llama-swap
+        description: Model router UI and API
+        url: https://swap.zetaphor.space
+        icon: fas fa-random
+      - title: J-Lens
+        description: GGUF visualization
+        url: https://jlens.zetaphor.space
+        icon: fas fa-microscope
+      - title: J-Wash
+        description: Jacobian model editing studio
+        url: https://jwash.zetaphor.space
+        icon: fas fa-soap
+      - title: Mnemis
+        description: Mnemis app
+        url: https://mnemis.zetaphor.space
+        icon: fas fa-brain
+      - title: Understory
+        description: Understory app
+        url: https://understory.zetaphor.space
+        icon: fas fa-leaf
+      - title: ComfyUI
+        description: Image generation UI
+        url: https://comfyui.zetaphor.space
+        icon: fas fa-image
+
+  - name: Ops and Runtime
+    icon: fas fa-screwdriver-wrench
+    color: '#8a6b4a'
+    items:
+      - title: systemd
+        description: System service monitor
+        url: https://systemd.zetaphor.space
+        icon: fas fa-cogs
+      - title: Pi Manager
+        description: Pi manager endpoint
+        url: https://pi-manager.zetaphor.space
+        icon: fas fa-microchip
+      - title: PI WEB
+        description: Pi Coding Agent web UI
+        url: https://pi.zetaphor.space
+        icon: fas fa-window-maximize
+      - title: Crawl4AI
+        description: Crawl4AI endpoint
+        url: https://crawler.zetaphor.space
+        icon: fas fa-spider
+      - title: Reactor Pages
+        description: Pi Reactor artifact browser
+        url: https://pages.zetaphor.space
+        icon: fas fa-file-code
+pages: []
