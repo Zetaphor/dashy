@@ -183,6 +183,10 @@ sections:
         description: Understory app
         url: https://understory.zetaphor.space
         icon: fas fa-leaf
+      - title: Verdant
+        description: llm-wiki markdown viewer/editor
+        url: https://wiki.zetaphor.space
+        icon: fas fa-book
       - title: ComfyUI
         description: Image generation UI
         url: https://comfyui.zetaphor.space
