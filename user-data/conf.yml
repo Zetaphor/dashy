@@ -4,43 +4,43 @@ appConfig:
   cssThemes: [zetaphor-green]
   customColors:
     zetaphor-green:
-      primary: '#57c779'
-      background: '#333333'
-      background-darker: '#262626'
+      primary: "#57c779"
+      background: "#333333"
+      background-darker: "#262626"
       font-monospace: "'Hack', 'PTMono', ui-monospace, Menlo, Monaco, Consolas, 'Courier New', monospace"
-      heading-text-color: '#d9f7df'
-      nav-link-text-color: '#cccccc'
-      nav-link-background-color: '#3a3a3a'
-      nav-link-text-color-hover: '#f2fff5'
-      nav-link-background-color-hover: '#454545'
-      nav-link-border-color: '#4f7a58'
-      nav-link-border-color-hover: '#57c779'
-      search-container-background: '#2a2a2a'
-      search-field-background: '#2f2f2f'
-      settings-background: '#2f2f2f'
-      settings-text-color: '#cccccc'
-      item-text-color: '#cccccc'
-      item-group-outer-background: '#4a9f5f'
-      item-group-background: '#2c2c2cf2'
-      item-group-heading-text-color: '#1f2d23'
-      item-group-heading-text-color-hover: '#ffffff'
-      footer-text-color: '#a8a8a8'
-      footer-text-color-link: '#7dd89a'
-      scroll-bar-color: '#57c779'
-      scroll-bar-background: '#242424'
-      highlight-background: '#57c779'
-      highlight-color: '#1f1f1f'
-      toast-background: '#57c779'
-      toast-color: '#1f1f1f'
-      welcome-popup-background: '#2b2b2b'
-      welcome-popup-text-color: '#cccccc'
-      side-bar-background: '#242424'
-      side-bar-color: '#cccccc'
-      status-check-tooltip-background: '#242424'
-      status-check-tooltip-color: '#d5f5dc'
-      context-menu-color: '#cccccc'
-      context-menu-background: '#2f2f2f'
-      context-menu-secondary-color: '#4f7a58'
+      heading-text-color: "#d9f7df"
+      nav-link-text-color: "#cccccc"
+      nav-link-background-color: "#3a3a3a"
+      nav-link-text-color-hover: "#f2fff5"
+      nav-link-background-color-hover: "#454545"
+      nav-link-border-color: "#4f7a58"
+      nav-link-border-color-hover: "#57c779"
+      search-container-background: "#2a2a2a"
+      search-field-background: "#2f2f2f"
+      settings-background: "#2f2f2f"
+      settings-text-color: "#cccccc"
+      item-text-color: "#cccccc"
+      item-group-outer-background: "#4a9f5f"
+      item-group-background: "#2c2c2cf2"
+      item-group-heading-text-color: "#1f2d23"
+      item-group-heading-text-color-hover: "#ffffff"
+      footer-text-color: "#a8a8a8"
+      footer-text-color-link: "#7dd89a"
+      scroll-bar-color: "#57c779"
+      scroll-bar-background: "#242424"
+      highlight-background: "#57c779"
+      highlight-color: "#1f1f1f"
+      toast-background: "#57c779"
+      toast-color: "#1f1f1f"
+      welcome-popup-background: "#2b2b2b"
+      welcome-popup-text-color: "#cccccc"
+      side-bar-background: "#242424"
+      side-bar-color: "#cccccc"
+      status-check-tooltip-background: "#242424"
+      status-check-tooltip-color: "#d5f5dc"
+      context-menu-color: "#cccccc"
+      context-menu-background: "#2f2f2f"
+      context-menu-secondary-color: "#4f7a58"
   statusCheck: false
   layout: vertical
   iconSize: medium
@@ -50,7 +50,8 @@ pageInfo:
 sections:
   - name: Daily Apps
     icon: fas fa-house
-    color: '#4a9f5f'
+    displayData:
+      color: "#4a9f5f"
     items:
       - title: LibreChat
         description: Chat app
@@ -79,7 +80,8 @@ sections:
 
   - name: Media Stack
     icon: fas fa-photo-film
-    color: '#3f8f9f'
+    displayData:
+      color: "#3f8f9f"
     items:
       - title: Navidrome
         description: Music server
@@ -96,7 +98,8 @@ sections:
 
   - name: Theta Services
     icon: fas fa-server
-    color: '#4f7a58'
+    displayData:
+      color: "#4f7a58"
     items:
       - title: Plex
         description: Media server
@@ -153,7 +156,8 @@ sections:
 
   - name: AI and Research
     icon: fas fa-brain
-    color: '#6c8f4a'
+    displayData:
+      color: "#6c8f4a"
     items:
       - title: LiteLLM
         description: LLM gateway
@@ -194,7 +198,8 @@ sections:
 
   - name: Ops and Runtime
     icon: fas fa-screwdriver-wrench
-    color: '#8a6b4a'
+    displayData:
+      color: "#8a6b4a"
     items:
       - title: systemd
         description: System service monitor
