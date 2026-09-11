@@ -53,30 +53,34 @@ sections:
     displayData:
       color: "#4a9f5f"
     items:
-      - title: LibreChat
-        description: Chat app
-        url: https://chat.zetaphor.space
-        icon: fas fa-comments
+      - title: Reactor Pages
+        description: Pi Reactor artifact browser
+        url: https://pages.zetaphor.space
+        icon: fas fa-file-code
+      - title: Reactor UI
+        description: Pi Reactor daemon dashboard
+        url: https://reactor.zetaphor.space
+        icon: fas fa-tasks
       - title: Hister
         description: History search and index
         url: https://hister.zetaphor.space
         icon: fas fa-history
-      - title: Vane
-        description: AI search engine
-        url: https://vane.zetaphor.space
-        icon: fas fa-compass
-      - title: SearXNG
-        description: Metasearch
-        url: https://searx.zetaphor.space
-        icon: fas fa-search
       - title: Health
         description: Gadgetbridge health UI and API
         url: https://health.zetaphor.space
         icon: fas fa-heart
-      - title: Supernote
-        description: Supernote private cloud
-        url: https://supernote.zetaphor.space
+      - title: Pi Web
+        description: Pi Coding Agent web UI
+        url: https://pi.zetaphor.space
+        icon: fas fa-window-maximize
+      - title: Verdant
+        description: llm-wiki markdown viewer/editor
+        url: https://wiki.zetaphor.space
         icon: fas fa-book
+      - title: PushLink
+        description: Pushbullet alternative for URLs, text, files, RSS
+        url: https://push.zetaphor.space
+        icon: fas fa-paper-plane
 
   - name: Media Stack
     icon: fas fa-photo-film
@@ -187,20 +191,28 @@ sections:
         description: Understory app
         url: https://understory.zetaphor.space
         icon: fas fa-leaf
-      - title: Verdant
-        description: llm-wiki markdown viewer/editor
-        url: https://wiki.zetaphor.space
-        icon: fas fa-book
       - title: ComfyUI
         description: Image generation UI
         url: https://comfyui.zetaphor.space
         icon: fas fa-image
+      - title: LibreChat
+        description: Chat app
+        url: https://chat.zetaphor.space
+        icon: fas fa-comments
+      - title: Vane
+        description: AI search engine
+        url: https://vane.zetaphor.space
+        icon: fas fa-compass
 
   - name: Ops and Runtime
     icon: fas fa-screwdriver-wrench
     displayData:
       color: "#8a6b4a"
     items:
+      - title: SearXNG
+        description: Metasearch
+        url: https://searx.zetaphor.space
+        icon: fas fa-search
       - title: systemd
         description: System service monitor
         url: https://systemd.zetaphor.space
@@ -209,16 +221,12 @@ sections:
         description: Pi manager endpoint
         url: https://pi-manager.zetaphor.space
         icon: fas fa-microchip
-      - title: PI WEB
-        description: Pi Coding Agent web UI
-        url: https://pi.zetaphor.space
-        icon: fas fa-window-maximize
       - title: Crawl4AI
         description: Crawl4AI endpoint
         url: https://crawler.zetaphor.space
         icon: fas fa-spider
-      - title: Reactor Pages
-        description: Pi Reactor artifact browser
-        url: https://pages.zetaphor.space
-        icon: fas fa-file-code
+      - title: Supernote
+        description: Supernote private cloud
+        url: https://supernote.zetaphor.space
+        icon: fas fa-book
 pages: []
