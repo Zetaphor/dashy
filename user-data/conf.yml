@@ -57,9 +57,9 @@ sections:
         description: Pi Reactor artifact browser
         url: https://pages.zetaphor.space
         icon: fas fa-file-code
-      - title: Reactor UI
-        description: Pi Reactor daemon dashboard
-        url: https://reactor.zetaphor.space
+      - title: DSH Reactor
+        description: Scheduled jobs dashboard (DSH web right sidebar Reactor tab)
+        url: https://dsharness.zetaphor.space
         icon: fas fa-tasks
       - title: Hister
         description: History search and index
@@ -73,6 +73,10 @@ sections:
         description: Pi Coding Agent web UI
         url: https://pi.zetaphor.space
         icon: fas fa-window-maximize
+      - title: DeepSeek Harness
+        description: DeepSeek agent harness web UI (Cordis plugins)
+        url: https://dsharness.zetaphor.space
+        icon: fas fa-robot
       - title: Verdant
         description: llm-wiki markdown viewer/editor
         url: https://wiki.zetaphor.space
@@ -213,6 +217,14 @@ sections:
         description: Metasearch
         url: https://searx.zetaphor.space
         icon: fas fa-search
+      - title: Sigma Desktop
+        description: Browser VNC to sigma XFCE desktop
+        url: https://desktop.zetaphor.space/vnc.html?autoconnect=1&resize=scale
+        icon: fas fa-desktop
+      - title: Files
+        description: FileBrowser Quantum — sigma home dir, no login
+        url: https://files.zetaphor.space
+        icon: fas fa-folder-open
       - title: systemd
         description: System service monitor
         url: https://systemd.zetaphor.space
