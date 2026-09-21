@@ -199,6 +199,10 @@ sections:
         description: Image generation UI
         url: https://comfyui.zetaphor.space
         icon: fas fa-image
+      - title: Qwen Image 2.1
+        description: Local T2I + edit UI (sd.cpp, 4070)
+        url: https://imagegen.zetaphor.space
+        icon: fas fa-wand-magic-sparkles
       - title: LibreChat
         description: Chat app
         url: https://chat.zetaphor.space
