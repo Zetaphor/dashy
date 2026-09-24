@@ -171,6 +171,10 @@ sections:
         description: LLM gateway
         url: https://litellm.zetaphor.space/ui
         icon: fas fa-robot
+      - title: Jev API
+        description: Local System One API (jev-api.service → Qwen3.5-4B Q4 CPU)
+        url: https://jevapi.zetaphor.space/health
+        icon: fas fa-code-branch
       - title: Lemonade
         description: NPU inference server
         url: https://lemonade.zetaphor.space
@@ -203,6 +207,10 @@ sections:
         description: Local T2I + edit UI (sd.cpp, 4070)
         url: https://imagegen.zetaphor.space
         icon: fas fa-wand-magic-sparkles
+      - title: sd.cpp WebUI
+        description: Upstream sdcpp-webui → shared Qwen sd-server
+        url: https://sdwebui.zetaphor.space
+        icon: fas fa-palette
       - title: LibreChat
         description: Chat app
         url: https://chat.zetaphor.space
@@ -229,9 +237,9 @@ sections:
         description: FileBrowser Quantum — sigma home dir, no login
         url: https://files.zetaphor.space
         icon: fas fa-folder-open
-      - title: systemd
-        description: System service monitor
-        url: https://systemd.zetaphor.space
+      - title: SysD Manager
+        description: SysD Manager GUI for systemd units (browser VNC)
+        url: https://systemd.zetaphor.space/vnc.html?autoconnect=1&resize=scale
         icon: fas fa-cogs
       - title: Pi Manager
         description: Pi manager endpoint
