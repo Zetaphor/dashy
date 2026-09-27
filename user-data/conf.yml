@@ -222,7 +222,7 @@ sections:
       color: "#8a6b4a"
     items:
       - title: SearXNG
-        description: Metasearch
+        description: Metasearch on bosgame
         url: https://searx.zetaphor.space
         icon: fas fa-search
       - title: Remote Desktops
