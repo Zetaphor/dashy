@@ -211,10 +211,6 @@ sections:
         description: Upstream sdcpp-webui → shared Qwen sd-server
         url: https://sdwebui.zetaphor.space
         icon: fas fa-palette
-      - title: LibreChat
-        description: Chat app
-        url: https://chat.zetaphor.space
-        icon: fas fa-comments
       - title: Vane
         description: AI search engine
         url: https://vane.zetaphor.space
@@ -229,10 +225,18 @@ sections:
         description: Metasearch
         url: https://searx.zetaphor.space
         icon: fas fa-search
+      - title: Remote Desktops
+        description: Choose a browser VNC session (sigma :0, bosgame :1)
+        url: https://desktop.zetaphor.space/
+        icon: fas fa-display
       - title: Sigma Desktop
-        description: Browser VNC to sigma XFCE desktop
+        description: Live XFCE desktop on sigma (:0)
         url: https://desktop.zetaphor.space/vnc.html?autoconnect=1&resize=scale
         icon: fas fa-desktop
+      - title: Bosgame Desktop
+        description: Virtual XFCE session on bosgame (:1, SSH tunnel)
+        url: https://desktop.zetaphor.space/bosgame/vnc.html?autoconnect=1&resize=scale
+        icon: fas fa-laptop
       - title: Files
         description: FileBrowser Quantum — sigma home dir, no login
         url: https://files.zetaphor.space
