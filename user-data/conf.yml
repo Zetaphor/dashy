@@ -175,12 +175,8 @@ sections:
         description: Local System One API (jev-api.service → Qwen3.5-4B Q4 CPU)
         url: https://jevapi.zetaphor.space/health
         icon: fas fa-code-branch
-      - title: Oído ASR
-        description: Speech-to-text (oido-asr-service → port 8006, en/es, loopback/docker0 only — consumed through LiteLLM, no public subdomain)
-        url: http://127.0.0.1:8006/health
-        icon: fas fa-microphone-alt
       - title: Qwen ASR (zephyrus)
-        description: Qwen3-ASR-1.7B int4 ONNX on the zephyrus laptop (qwen3-asr-service → :8006, multilingual + hotwords, LAN health check — not yet wired into LiteLLM)
+        description: Qwen3-ASR-1.7B int4 ONNX on the zephyrus laptop (qwen3-asr-service → :8006, multilingual + hotwords, LAN health check — default dictation route since 2026-10-04, replaced Oído)
         url: http://192.168.50.40:8006/health
         icon: fas fa-microphone
       - title: Lemonade
