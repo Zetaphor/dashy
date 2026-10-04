@@ -179,6 +179,10 @@ sections:
         description: Speech-to-text (oido-asr-service → port 8006, en/es, loopback/docker0 only — consumed through LiteLLM, no public subdomain)
         url: http://127.0.0.1:8006/health
         icon: fas fa-microphone-alt
+      - title: Qwen ASR (zephyrus)
+        description: Qwen3-ASR-1.7B int4 ONNX on the zephyrus laptop (qwen3-asr-service → :8006, multilingual + hotwords, LAN health check — not yet wired into LiteLLM)
+        url: http://192.168.50.40:8006/health
+        icon: fas fa-microphone
       - title: Lemonade
         description: NPU inference server
         url: https://lemonade.zetaphor.space
