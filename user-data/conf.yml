@@ -230,7 +230,7 @@ sections:
         url: https://searx.zetaphor.space
         icon: fas fa-search
       - title: Remote Desktops
-        description: Choose a browser VNC session (sigma :0, bosgame :1)
+        description: Choose a browser VNC session (sigma :0, bosgame :1, zephyrus :0)
         url: https://desktop.zetaphor.space/
         icon: fas fa-display
       - title: Sigma Desktop
@@ -241,6 +241,10 @@ sections:
         description: Virtual XFCE session on bosgame (:1, SSH tunnel)
         url: https://desktop.zetaphor.space/bosgame/vnc.html?autoconnect=1&resize=scale
         icon: fas fa-laptop
+      - title: Zephyrus Desktop
+        description: Live XFCE desktop on zephyrus (:0, SSH tunnel)
+        url: https://desktop.zetaphor.space/zephyrus/vnc.html?autoconnect=1&resize=scale
+        icon: fas fa-laptop-code
       - title: Files
         description: FileBrowser Quantum — sigma home dir, no login
         url: https://files.zetaphor.space
