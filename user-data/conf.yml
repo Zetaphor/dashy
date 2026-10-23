@@ -53,6 +53,10 @@ sections:
     displayData:
       color: "#4a9f5f"
     items:
+      - title: Vikunja
+        description: Task board (todo/project management)
+        url: https://board.zetaphor.space
+        icon: fas fa-list-check
       - title: Reactor Pages
         description: Pi Reactor artifact browser
         url: https://pages.zetaphor.space
@@ -161,6 +165,10 @@ sections:
         description: Metasearch on theta
         url: https://searx-theta.zetaphor.space
         icon: fas fa-search
+      - title: Profilarr
+        description: *arr config management
+        url: https://profilarr.zetaphor.space
+        icon: fas fa-sliders-h
 
   - name: AI and Research
     icon: fas fa-brain
@@ -171,6 +179,10 @@ sections:
         description: LLM gateway
         url: https://litellm.zetaphor.space/ui
         icon: fas fa-robot
+      - title: OpenCode
+        description: OpenCode 2 coding agent web UI (opencode.service → :49374, login user "opencode"; LiteLLM + OpenCode Go providers)
+        url: https://opencode.zetaphor.space
+        icon: fas fa-terminal
       - title: Jev API
         description: Local System One API (jev-api.service → Qwen3.5-4B Q4 CPU)
         url: https://jevapi.zetaphor.space/health
@@ -230,7 +242,7 @@ sections:
         url: https://searx.zetaphor.space
         icon: fas fa-search
       - title: Remote Desktops
-        description: Choose a browser VNC session (sigma :0, bosgame :1, zephyrus :0)
+        description: Choose a browser VNC session (sigma :0, bosgame :1, zephyrus :0, alpha)
         url: https://desktop.zetaphor.space/
         icon: fas fa-display
       - title: Sigma Desktop
@@ -245,6 +257,10 @@ sections:
         description: Live XFCE desktop on zephyrus (:0, SSH tunnel)
         url: https://desktop.zetaphor.space/zephyrus/vnc.html?autoconnect=1&resize=scale
         icon: fas fa-laptop-code
+      - title: Alpha Desktop
+        description: Live KDE Plasma (Wayland) desktop on alpha (SSH tunnel)
+        url: https://desktop.zetaphor.space/alpha/vnc.html?autoconnect=1&resize=scale
+        icon: fas fa-laptop
       - title: Files
         description: FileBrowser Quantum — sigma home dir, no login
         url: https://files.zetaphor.space
