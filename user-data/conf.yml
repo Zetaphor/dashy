@@ -166,7 +166,7 @@ sections:
         url: https://searx-theta.zetaphor.space
         icon: fas fa-search
       - title: Profilarr
-        description: *arr config management
+        description: '*arr config management'
         url: https://profilarr.zetaphor.space
         icon: fas fa-sliders-h
 
@@ -191,6 +191,10 @@ sections:
         description: Qwen3-ASR-1.7B int4 ONNX on the zephyrus laptop (qwen3-asr-service → :8006, multilingual + hotwords, LAN health check — default dictation route since 2026-10-04, replaced Oído)
         url: http://192.168.50.40:8006/health
         icon: fas fa-microphone
+      - title: Gemma 4 E2B Rewrite (zephyrus)
+        description: Gemma-4-E2B-it QAT GGUF + MTP drafter, llama-server OpenAI API for natural-tone rewrites (gemma4-e2b.service → :8081, RTX 2060 Max-Q, ~111 t/s decode)
+        url: http://192.168.50.40:8081/health
+        icon: fas fa-feather-alt
       - title: Lemonade
         description: NPU inference server
         url: https://lemonade.zetaphor.space
@@ -257,6 +261,10 @@ sections:
         description: Live XFCE desktop on zephyrus (:0, SSH tunnel)
         url: https://desktop.zetaphor.space/zephyrus/vnc.html?autoconnect=1&resize=scale
         icon: fas fa-laptop-code
+      - title: OpenSim Grid (zephyrus)
+        description: OpenSim 0.9.3.1-dev standalone+Hypergrid personal grid — 3x3 wind-themed region block centered on Zephyrus (opensim.service → :9000, SQLite, region map tile; viewer login http://192.168.50.40:9000)
+        url: http://192.168.50.40:9000/map/?method=get&x=0&y=0&z=0&width=256&height=256
+        icon: fas fa-globe
       - title: Alpha Desktop
         description: Live KDE Plasma (Wayland) desktop on alpha (SSH tunnel)
         url: https://desktop.zetaphor.space/alpha/vnc.html?autoconnect=1&resize=scale
@@ -265,6 +273,10 @@ sections:
         description: FileBrowser Quantum — sigma home dir, no login
         url: https://files.zetaphor.space
         icon: fas fa-folder-open
+      - title: Beszel
+        description: Server monitoring — sigma, alpha, theta, zetaphor.com
+        url: https://monitor.zetaphor.space
+        icon: fas fa-gauge-high
       - title: SysD Manager
         description: SysD Manager GUI for systemd units (browser VNC)
         url: https://systemd.zetaphor.space/vnc.html?autoconnect=1&resize=scale
